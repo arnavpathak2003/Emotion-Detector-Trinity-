@@ -6,12 +6,17 @@ This repository contains code for recognizing emotions from both text and speech
 *Dependencies*:
 The following dependencies have to be installed:
 
-TensorFlow
-Hugging Face Transformers
-Pandas
-NumPy
-Scikit-learn
-Librosa (for audio processing)
+1)TensorFlow
+
+2)Hugging Face Transformers
+
+3)Pandas
+
+4)NumPy
+
+5)Scikit-learn
+
+6)Librosa (for audio processing)
 
 *Text Emotion Recognition (BERT Preprocessor)*:
 The text-based emotion recognition module utilizes the BERT preprocessor for encoding text data. The steps involved are:
