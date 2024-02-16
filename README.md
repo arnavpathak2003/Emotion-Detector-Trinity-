@@ -8,7 +8,7 @@ The following dependencies have to be installed:
 
 1)TensorFlow
 
-2)Hugging Face Transformers
+2)Streamlit
 
 3)Pandas
 
@@ -31,3 +31,5 @@ The speech/audio-based emotion recognition module employs a Random Forest Classi
 Feature Extraction: Extract relevant features from the audio files using Librosa.
 Data Preparation: Prepare the extracted features along with corresponding labels for model training.
 Model Training: Train a Random Forest Classifier model and Convulational Neural Networks (CNN) on the extracted features.
+
+After complete extraction, preprocessing and model training of both text and speech data, we've deployed the models using streamlit.
